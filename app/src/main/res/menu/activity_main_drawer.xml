@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_newTachesFragment"
+            android:icon="@drawable/ic_baseline_create_24"
+            android:title="Creation tache" />
+        <item
+            android:id="@+id/nav_tachesFragment"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="Toutes les Taches " />
+        <item
+            android:id="@+id/new_TacheForUserFragment"
+            android:icon="@drawable/ic_email"
+            android:title="Creation tache For user" />
+        <item
+            android:id="@+id/nav_createGroupeFragment"
+            android:icon="@drawable/ic_baseline_group_add_24"
+            android:title="Creation Groupes" />
+
+        <item
+            android:id="@+id/nav_listGroupeFragment"
+            android:icon="@drawable/ic_baseline_list_alt_24"
+            android:title="List des Groupes "/>
+        <item
+            android:id="@+id/nav_personalTasksFragment"
+            android:icon="@drawable/ic_person"
+            android:title="Personal Tasks "/>
+        <item
+            android:id="@+id/nav_sharedTasksFragment"
+            android:icon="@drawable/ic_baseline_share_24"
+            android:title="shared Tasks "/>
+        <item
+            android:id="@+id/nav_groupTasksFragment"
+            android:icon="@drawable/ic_baseline_group_24"
+            android:title="Group Tasks "/>
+
+    </group>
+</menu>

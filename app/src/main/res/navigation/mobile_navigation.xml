@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.todolist.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_tachesFragment"
+        android:name="com.example.todolist.ui.TodoList.TachesFragment"
+        android:label="fragment_taches"
+        tools:layout="@layout/fragment_taches" />
+    <fragment
+        android:id="@+id/nav_newTachesFragment"
+        android:name="com.example.todolist.ui.NewTaches.NewTachesFragment"
+        android:label="NewTachesFragment" />
+    <fragment
+        android:id="@+id/new_TacheForUserFragment"
+        android:name="com.example.todolist.ui.NewTacheForuser.NewTacheForUserFragment"
+        android:label="fragment_new_tache_for_user_"
+        tools:layout="@layout/fragment_new_tache_for_user_" />
+    <fragment
+        android:id="@+id/nav_createGroupeFragment"
+        android:name="com.example.todolist.ui.AddGroupe.CreateGroupeFragment"
+        android:label="fragment_create_groupe"
+        tools:layout="@layout/fragment_create_groupe" />
+    <fragment
+        android:id="@+id/nav_listGroupeFragment"
+        android:name="com.example.todolist.ui.ListGroupe.ListGroupeFragment"
+        android:label="fragment_list_groupe"
+        tools:layout="@layout/fragment_list_groupe" />
+    <fragment
+        android:id="@+id/nav_personalTasksFragment"
+        android:name="com.example.todolist.ui.personalTasks.personalTasksFragment"
+        android:label="personalTasksFragment" />
+    <fragment
+        android:id="@+id/nav_sharedTasksFragment"
+        android:name="com.example.todolist.ui.sharedTasks.SharedTasksFragment"
+        android:label="fragment_shared_tasks"
+        tools:layout="@layout/fragment_shared_tasks" />
+    <fragment
+        android:id="@+id/nav_groupTasksFragment"
+        android:name="com.example.todolist.ui.GroupTasks.GroupTasksFragment"
+        android:label="fragment_group_tasks"
+        tools:layout="@layout/fragment_group_tasks" />
+
+
+</navigation>
